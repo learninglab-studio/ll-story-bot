@@ -1,0 +1,24 @@
+{
+  "name": "ll-story-bot",
+  "version": "1.0.0",
+  "description": "the LearningLab's StoryBot",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learninglab-studio/ll-story-bot.git"
+  },
+  "author": "Marlon Kuzmick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/learninglab-studio/ll-story-bot/issues"
+  },
+  "homepage": "https://github.com/learninglab-studio/ll-story-bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.8.1",
+    "dotenv": "^10.0.0"
+  }
+}
